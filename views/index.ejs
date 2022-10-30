@@ -1,0 +1,17 @@
+<%- include partials/header.ejs %>
+<%- include partials/main_nav.ejs %>
+<!--main content--->
+<main>
+<link rel="stylesheet" type="text/css" href="app.css"> 
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Welcome to the <%= title %> Page</h1>
+  </div>
+    <%- include partials/Home.ejs %>
+    <%- include partials/About.ejs %>
+    <%- include partials/Projects.ejs %>
+    <%- include partials/Contact.ejs %>
+</main>
+<%- include partials/bottom_nav.ejs %>
+<%- include partials/footer.ejs %>
+
